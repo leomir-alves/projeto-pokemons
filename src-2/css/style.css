@@ -1,0 +1,139 @@
+body{
+    background-color: gray;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+
+}
+
+header img{
+    width: 32px;
+
+}
+header{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.container{
+    
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+   
+}
+
+.container .catao{
+    background-color: rgb(250, 231, 231);
+    text-align: center;
+    width: 190px;
+    border-radius:14px;
+    margin: 5px;
+    transition: 0,2s ease-in-out;
+}
+.container .catao:hover{
+    background-color: #96d9d6;
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+.catao img{
+  height: 60px;
+  width: 60px;
+}
+.catao .name{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+
+.natureza{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.natureza .grama{
+    background-color: #7ac74c;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+
+.natureza .veneno{
+    background-color: #df67ddfb;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.natureza .fogo{
+    background-color: #ee8130;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+.natureza .agua{
+    background-color: #6390f0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.natureza .inseto{
+    background-color: #a6b91a;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.natureza .eletrico{ 
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+ p{
+    max-height: 80px;
+    overflow-y: scroll;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Barra de rolagem vertical */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #582965; /* Cor do indicador da barra de rolagem */
+    border-radius: 10px; /* Borda do indicador da barra de rolagem */
+    border: 3px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1e9e9; /* Cor do fundo da barra de rolagem */
+}
+
+
+
+
+
